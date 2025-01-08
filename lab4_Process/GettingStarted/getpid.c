@@ -1,9 +1,8 @@
+/* GettingStarted/getpid.c */
 #include <stdio.h>
 #include <unistd.h>
 
 int main(int argc,char *argv[])
 {
-	printf("My PID: [%d]\n",getpid());
-	while(1);
-	return 0;
+    printf("My PID is %d\n",getpid());
 }

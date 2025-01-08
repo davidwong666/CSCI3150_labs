@@ -1,9 +1,7 @@
 CC=gcc
 CFLAGS=-Wall
 EXE=\
-	whileLoop
-
-
+	getpid 
 
 all: ${EXE}
 clean:
