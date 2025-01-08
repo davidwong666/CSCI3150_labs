@@ -1,0 +1,73 @@
+echo $SHELL
+
+echo $HOME
+
+echo $PATH
+
+export PATH="/path/to/dir:$PATH
+
+gcc hello_world.c -o hello_world
+
+echo "hello world"
+
+top
+
+htop
+
+file /bin/bash
+
+cat hello.txt
+
+head -n 2 hello.txt
+
+grep hello hello1.txt hello2.txt hello3.txt
+
+htop &
+
+fg
+
+mkdir test
+
+cd test
+
+touch a b a.txt b.txt
+
+ls !(*.txt)
+
+ls -1 | grep "D"
+
+ls >ls.out
+
+cat ls.out
+
+haha 2>haha.err
+
+touch myfile; cp myfile myfile_copy; mkdir file_copy; mv myfile_copy file_copy/
+
+ls && echo ">> Success <<"
+
+haha && echo ">> Success <<"
+
+haha || echo ">> Failed <<"
+
+ls || echo ">> Failed <<"
+
+haha && echo ">> Success <<" || echo ">> Failed <<"
+
+ls && echo ">> Success <<" || echo ">> Failed <<"
+
+haha || echo ">> Failed <<" && echo ">> Success <<"
+
+haha && { echo ">> Success <<"; echo "XD"; } || echo ">> Failed <<"
+
+haha && echo ">> Success <<"; echo "XD" || echo ">> Failed <<"
+
+bash ./myscript.sh
+
+chmod a+x ./myscript.sh
+
+/myscript.sh
+
+./file_displayer.sh forloop.sh
+
+
