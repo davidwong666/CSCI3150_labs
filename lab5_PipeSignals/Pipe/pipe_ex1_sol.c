@@ -53,7 +53,7 @@ int main(int argc, char *argv[]){
     alarm(10);
     if(pid!=0){
         while(1){
-            sleep(rand()%2+1);        
+            sleep(rand()%2+1);
             TELL_CHILD();
             WAIT_CHILD();
         }
